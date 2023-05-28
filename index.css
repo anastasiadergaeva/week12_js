@@ -2,12 +2,21 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
+
+    border: 1px double #e79141ab;
+    border-radius: 1px;
 }
 
 .container {
     grid-area: 1/1/2/2;
+
+    background-color: rgba(255, 235, 205, 0.548);
 }
 
 #chat {
     grid-area: 1/2/2/3;
+}
+
+body {
+    background-color: rgb(245, 196, 122);
 }
