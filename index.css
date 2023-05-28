@@ -1,0 +1,13 @@
+.maincontainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+    grid-area: 1/1/2/2;
+}
+
+#chat {
+    grid-area: 1/2/2/3;
+}
